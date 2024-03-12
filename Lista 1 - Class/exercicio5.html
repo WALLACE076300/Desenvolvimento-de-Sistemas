@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <script>
+        class Filme{
+            constructor(titulo,genero,duracao){
+                this.titulo = titulo
+                this.genero = genero
+                this.duracao = duracao
+            }
+            informacoesFilme(){
+                console.log(`Titulo: ${this.titulo}`)
+                console.log(`Gênero: ${this.genero}`)
+                console.log(`Duração: ${this.duracao}`)
+            }
+        }
+
+        let Filme1 = new Filme ('Homem Aranha 2','Ação/Ficção científica','2h 7m')
+
+        console.log(`${Filme1.informacoesFilme()}`)
+    </script>
+</body>
+</html>
