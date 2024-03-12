@@ -21,15 +21,15 @@
                 console.log(`Nome: ${this.nome}`)
                 console.log(`Receita Anual: ${this.receitaAnual}`)
                 console.log(`Despesas Anuais: ${this.despesasAnuais}`)
-                console.log(`Lucro Anual: ${this.duracao}`)
+                console.log(`Lucro Anual: ${Empresa1.calcularLucroAnual}`)
             }
         }
 
         let Empresa1 = new Empresa ('Juninho Celulares',600000,300000)
         let Empresa2 = new Empresa ('AutoMovel',30000000,16000000)
 
-        console.log(`${Empresa1.informacoes()}`)
-        console.log(`${Empresa2.informacoesFilme()}`)
+        console.log(`${Empresa1.exibirRelatorio()}`)
+        console.log(`${Empresa2.exibirRelatorio()}`)
     </script>
 </body>
 </html>
